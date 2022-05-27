@@ -1,0 +1,66 @@
+#Contenedor-Padre {
+    background-color: rgb(235, 224, 129);
+    width: 700px;
+    height: 1000px;
+}
+
+.static {
+background-color: rgb(238, 103, 54);
+height: 100px;
+width: 100px;
+position: static;
+}
+
+.relative {
+background-color: violet;
+height: 100px;
+width: 100px;
+position: relative;
+top:10px; 
+left:10px;  
+z-index:1; 
+}
+
+.absolute {
+
+background-color: rgb(104, 104, 231);
+height: 100px;
+width: 100px;
+position: absolute;
+top:10px;
+}
+
+.fixed {
+
+    background-color: rgb(137, 235, 146);
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 60%; 
+        
+    }
+
+.sticky {
+
+    background-color: rgb(19, 202, 193);
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    top:0; 
+
+}
+
+.circulo {
+
+    height: 50px;
+    width: 50px;
+    background-color:rgb(29, 238, 81);
+    
+}
+
+/* .scroll {
+    overflow: scroll;
+    border: 2px solid red;
+    height: 300px;
+
+} */
